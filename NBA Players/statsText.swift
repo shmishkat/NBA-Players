@@ -29,7 +29,7 @@ struct statsText: View {
             
             
             Spacer()
-        }
+        }.minimumScaleFactor(0.6)
     }
 }
 

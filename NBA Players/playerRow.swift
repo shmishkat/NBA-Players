@@ -24,6 +24,7 @@ struct playerRow: View {
                 
             Text(player.name)
                 .font(.largeTitle)
+                .minimumScaleFactor(0.5)
             Spacer()
         }
     }
